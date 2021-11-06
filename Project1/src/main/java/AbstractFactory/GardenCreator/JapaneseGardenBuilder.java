@@ -15,4 +15,5 @@ public class JapaneseGardenBuilder extends GardenBuilder {
     public Tree createTree() {
         return new JapaneseTree();
     }
+
 }
