@@ -13,8 +13,8 @@ public class Handler {
         tree = gardenBuilder.createTree();
     }
     public void create(){
-        flower.getMessage();
-        tree.getMessage();
+        System.out.println(flower.getMessage());
+        System.out.println(tree.getMessage());
 
     }
 }
